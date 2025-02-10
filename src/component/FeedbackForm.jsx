@@ -51,6 +51,7 @@ const FeedbackForm = () => {
         addNewFeedback(newFeedback);
       }
     }
+    setText('');
   };
 
   return (
